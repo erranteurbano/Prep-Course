@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html{
+    background-image: url(https://imgs.search.brave.com/ClEVbmdEMZ5Z-Qqw7_GDIJgy2NcOR1nxqKGzfsC0Ja4/rs:fit:715:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5H/SFotSWdqNFZqZ1lZ/VlNCYlpjVkpnSGFF/NiZwaWQ9QXBp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex-container{
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+h1{
+    color:darkmagenta;
+   position: relative;
+
+}
+img{
+
+width: 400px;
+
+
+}
+#thirdDiv{
+ 
+height: 600px;
+width: 500px;
+background-color: #fff;
+padding: 50px;
+border:  2px solid #555;
+position:relative;
+left: 450px;
+border-radius: 10px;
+top: 20px;
+
+}
+
+#spanId{
+
+font-size: 18px;
+margin: 50px;
+}
+
